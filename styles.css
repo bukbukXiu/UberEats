@@ -11,6 +11,8 @@
     }
 
     .header {
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -63,5 +65,36 @@
 
     .basketBtn {
         display: none;
+    }
+
+    .search {
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 32px;
+        width: 308px;
+        height: 48px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 13px;
+        color: #626262;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        border-bottom: 1px solid black;
+    }
+
+    .search img {
+        height: 16px;
+        width: 16px;
+    }
+    .search span {
+        margin-left: 8px;
     }
 }
