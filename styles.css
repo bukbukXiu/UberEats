@@ -97,4 +97,46 @@
     .search span {
         margin-left: 8px;
     }
+
+
+    .delivery {
+        display: grid;
+        grid-template-columns: 1fr 3.5fr;
+        grid-gap: 16px;
+        margin-top: 24px;
+    }
+
+    .delivery span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 11px;
+
+        color: #626262;
+    }
+
+    .delivery div {
+        height: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 13px;
+        color: #1D1D1D;
+
+        padding: 8px 16px 8px 16px;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 2px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .delivery div img {
+        width: 12px;
+        height: 15px;
+        margin: 0px 12px 0px -4px; 
+    }
 }
